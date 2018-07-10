@@ -1,0 +1,28 @@
+.newspage-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newspage-block .ui.card {
+    width: 32%;
+    margin: 0;
+}
+
+.news-image {
+    position: relative;
+}
+
+.newspage-image > span {
+    position: absolute;
+    z-index: 50;
+    background-color: rgba(255,27,85,0.9);
+    color: white;
+    font-size: 14px;
+    top: 7px;
+    right: -10px;
+    padding: 8px 20px;
+}
+
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+    text-decoration: underline;
+}

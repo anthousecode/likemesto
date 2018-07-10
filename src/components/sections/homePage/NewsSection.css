@@ -1,0 +1,29 @@
+.last-news-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-news-block .ui.card {
+    width: 32%;
+    margin: 0;
+}
+
+.news-image {
+    position: relative;
+}
+
+.news-image > span {
+    position: absolute;
+    z-index: 50;
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+    font-size: 16px;
+    color: #fff;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #29292a;
+    font-weight: normal;
+}

@@ -1,0 +1,23 @@
+.new-homes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-homes .new-home-item {
+    width: 260px;
+    height: 240px;
+    margin-bottom: 35px;
+}
+
+
+.new-homes div.hm-item-image {
+    margin: 0 auto;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+}
+.new-homes .ui .image img {
+    width: 100%;
+    margin: -100%;
+    max-width: none;
+}

@@ -1,0 +1,32 @@
+.last-salepage-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-salepage-block .map-section {
+}
+
+.last-salepage-block .flat-section {
+}
+
+.last-salepage-block .ui.card {
+    background-color: #fff7c5;
+    padding: 10px;
+    width: 620px;
+    flex-direction: row;
+    height: 250px;
+}
+.last-salepage-block .apartment-item {
+    background-color: #fff7c5;
+    margin-bottom: 5px;
+}
+
+.last-salepage-block .apartment-item img {
+    max-width: 250px;
+    margin-right: 15px;
+}
+
+.last-salepage-block .apartment-item .item-image {
+    margin: 0;
+    height: 100%;
+}

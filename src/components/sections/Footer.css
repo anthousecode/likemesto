@@ -1,0 +1,49 @@
+.footer-nav {
+    display: flex;
+}
+
+.footer .sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex: 5;
+}
+
+.footer a {
+    color: #686868;
+}
+
+.footer a:hover {
+    color: #686868;
+}
+
+.footer .sections .section {
+    width: 25%;
+    padding: 25px 0;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+.footer ul li:first-child {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer .partners {
+    flex: 2;
+}
+
+.footer .partners .partner {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 25px 0;
+}

@@ -1,0 +1,21 @@
+.question-info-block {
+    background-color: #fff;
+    display: flex;
+    height: 260px;
+    justify-content: space-around;
+}
+
+.question-info-block .qi-info {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-info-block .qi-info span {
+    margin-bottom: 40px;
+}
+
+.question-info-block img {
+    height: 100%;
+    object-fit: contain;
+}

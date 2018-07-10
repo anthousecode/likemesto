@@ -1,0 +1,33 @@
+.flat-page {
+    padding: 0px;
+    margin: 0;
+    display: flex;
+}
+
+.flat-page .ui.tiny.image, .ui.tiny.images .image, .ui.tiny.images img, .ui.tiny.images svg{
+}
+
+.flat-page .slick-slider {
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.flat-page .slick-prev:before, .slick-next:before {
+    color: #29292a;
+}
+
+.flat-page-map {
+    overflow: hidden;
+    height: 400px;
+    width: 350px;
+    display: flex;
+}
+
+.flat-page-tab {
+    margin: 0;
+    padding: 0;
+    display: block;
+}

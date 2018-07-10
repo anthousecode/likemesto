@@ -1,0 +1,11 @@
+.homepage .hp-banners {
+    display: flex;
+}
+
+.homepage .last-add, .info {
+    flex: 1;
+}
+
+h1 {
+    margin-top: 70px;
+}
